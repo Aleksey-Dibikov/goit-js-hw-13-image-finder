@@ -1,0 +1,43 @@
+.search-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.btn-search {
+  margin-top: 10px;
+}
+
+.btn-lode-more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.stats {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 160px;
+}
+
+.material-icons {
+  font-size: 15px;
+}
