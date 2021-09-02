@@ -5,6 +5,25 @@
   margin: 20px;
 }
 
+.btn-search,
+.btn {
+  min-width: 160px;
+  min-height: 35px;
+  background-color: rgb(12, 15, 233);
+  color: white;
+  border-radius: 100px;
+  border: 2px solid black;
+  border: 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.btn-search:hover,
+.btn:hover {
+  background-color: #11998e;
+  box-shadow: 0 13px 16px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  outline: none;
+}
+
 .btn-search {
   margin-top: 10px;
 }
@@ -13,6 +32,24 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+}
+
+.input {
+  outline: none;
+  border-radius: 30px;
+  border-top: 1px solid grey;
+  border-left: 0;
+  border-right: 0;
+  min-width: 200px;
+  height: 40px;
+  text-align: center;
+}
+
+.input:hover,
+input:focus {
+  border-color: #11998e;
+  border-top: 2px solid #11998e;
+  border-radius: 30px;
 }
 
 .gallery {
